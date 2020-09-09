@@ -1,0 +1,5 @@
+#!/bin/bash
+echo nombre: ALejandra
+echo asignatura: sistema operativo 1
+
+
