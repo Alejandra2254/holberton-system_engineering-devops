@@ -1,3 +1,2 @@
 #!/bin/bash
-touch \\\*\\\\'"Holberton_Scholl"\'\\*\$\\\?\\\*\\\*\\\*\\\*\\\*\:\)
-echo "Holberton Scholl" >> \\\*\\\\'"Holberton_Scholl"\'\\*\$\\\?\\\*\\\*\\\*\\\*\\\*\:\)
+echo "Holberton School" > \\\*\\\\\'\"Holberton\ School\"\\\'\\\\\*\$\\\?\\\*\\\*\\\*\\\*\\\*:\)
