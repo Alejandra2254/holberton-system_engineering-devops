@@ -1,0 +1,17 @@
+total 60
+drwxrwxr-x 2 alejandrah alejandrah 4096 sep 14 10:31 .
+drwxrwxr-x 6 alejandrah alejandrah 4096 sep 13 17:36 ..
+-rwxrw-r-- 1 alejandrah alejandrah   30 sep 13 22:53 0-hello_world
+-rwxrw-r-- 1 alejandrah alejandrah   37 sep 14 09:57 1-confused_smiley
+-rwxrw-r-- 1 alejandrah alejandrah   28 sep 14 01:45 2-hellofile
+-rwxrw-r-- 1 alejandrah alejandrah   40 sep 14 01:53 3-twofiles
+-rwxrw-r-- 1 alejandrah alejandrah   35 sep 14 01:57 4-lastlines
+-rwxrw-r-- 1 alejandrah alejandrah   35 sep 14 02:04 5-firstlines
+-rwxrw-r-- 1 alejandrah alejandrah   41 sep 14 02:22 6-third_line
+-rwxrw-r-- 1 alejandrah alejandrah  171 sep 14 10:18 7-file
+-rwxrw-r-- 1 alejandrah alejandrah   81 sep 14 10:08 7-file~
+-rwxrw-r-- 1 alejandrah alejandrah   57 sep 14 10:31 8-cwd_state
+-rwxrw-r-- 1 alejandrah alejandrah   55 sep 14 10:30 8-cwd_state~
+-rw-rw-r-- 1 alejandrah alejandrah   17 sep 14 10:18 \*\\"Holberton_Scholl"\\*$\?\*\*\*\*\*:)
+-rw-rw-r-- 1 alejandrah alejandrah    0 sep 14 10:31 ls_cwd_content
+-rw-rw-r-- 1 alejandrah alejandrah  281 sep 13 17:42 README.md
