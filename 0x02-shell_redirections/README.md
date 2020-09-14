@@ -1,0 +1,2 @@
+#Redireccion E/S
+### caracteristica poderosa, como hemos visto muchos comandos ls imprimen su salida en la pantalla. Sin embargo, al usar algunas notaciones especiales, podemos redirigir la salida de muchos comandos a archivos, dispositivos e incluso a la entrada de otros comandos
