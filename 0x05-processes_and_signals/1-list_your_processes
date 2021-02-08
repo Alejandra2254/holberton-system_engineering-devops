@@ -3,4 +3,4 @@
 # a eliminate restriction BSD to add other user's processes
 # x add proccesses with no tty associated
 # u format oriented to the user
-ps axuf
+ps -auxf
