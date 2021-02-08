@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-#  displays the PID, along with the process name
-# id
-pgrep -l "bash"
+# Bash script that displays a list of currently running processes.
+# shellcheck disable=SC2009
+pgrep bash -l
