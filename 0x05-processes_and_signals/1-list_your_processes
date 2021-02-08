@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#  list of currently running processes
+# a eliminate restriction BSD to add other user's processes
+# x add proccesses with no tty associated
+# u format oriented to the user
+ps -auxf
