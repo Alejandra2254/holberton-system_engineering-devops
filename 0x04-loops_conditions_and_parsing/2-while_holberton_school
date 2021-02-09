@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# displays Holberton School 10 times.
+# using while
+N=10
+i=0
+while((i < N))
+do
+	echo "Holberton School"
+	let "i+=1"
+done
