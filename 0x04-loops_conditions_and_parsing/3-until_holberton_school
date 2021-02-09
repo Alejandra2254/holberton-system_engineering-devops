@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# displays Holberton School 10 times.
+# using until
+N=0
+until [ $N -gt 10 ]
+do
+	echo "Holberton School"
+	((N++))
+done
