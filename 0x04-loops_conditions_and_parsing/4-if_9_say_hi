@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# displays Holberton School 10 times.
+# using while
+# but for the 9th iteration, displays Holberton School and then Hi on a new line.
+N=10
+i=0
+while((i < N))
+do
+	echo "Holberton School"
+	if [ $i -eq 8 ]
+	then
+	    echo "hi"
+	fi
+	let "i+=1"
+done
