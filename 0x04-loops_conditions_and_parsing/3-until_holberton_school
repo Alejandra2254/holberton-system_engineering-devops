@@ -2,7 +2,7 @@
 # displays Holberton School 10 times.
 # using until
 N=0
-until [ $N -gt 10 ]
+until [ $N -gt 9 ]
 do
 	echo "Holberton School"
 	((N++))
