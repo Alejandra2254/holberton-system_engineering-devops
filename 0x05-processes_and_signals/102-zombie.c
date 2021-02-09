@@ -22,21 +22,17 @@ int main(void)
 		if (child_id == 0)
 		{
 			break;
-			
 		}
 		else
 		{
 			printf("Zombie process created, PID: %d\n", child_id);
 			count++;
-			
 		}
-		
 	}
 	if (child_id > 0)
 		infinite_while();
 
 	return (EXIT_SUCCESS);
-	
 }
 
 /**
@@ -52,5 +48,4 @@ int infinite_while(void)
 		
 	}
 	return (0);
-	
 }
