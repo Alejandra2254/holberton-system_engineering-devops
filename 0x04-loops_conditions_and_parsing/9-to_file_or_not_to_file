@@ -2,19 +2,22 @@
 # script that gives you information about the holbertonschool file
 
 i="holbertonschool"
-if [ -e "$i"]
+if [ -e "$i" ]
 then
-	echo "holbertonschool file exists"
-	if [ -s "$i" ]
-	then
-	    echo "holbertonschool file is not empty"
-	else
-	    echo "holbertonschool file is empty"
-	fi
-	if [ -f "$i" ]
-	then
-	    echo "holbertonschool is a regular file"
-	fi
+    echo "$i file exists"
+    if [ -s "$i" ]
+    then
+	echo "$i file is not empty"
+    else
+	echo "$i file is empty"
+    fi
+    if [ -f "$i" ]
+    then
+	echo "$i is a regular file"
+    fi
 else
-    echo holbertonschool file does not exist
+    echo "$i file does not exist"
+    fiif [ -e "$i" ]
+then
+    echo "$i file exists"
 fi
