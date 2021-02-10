@@ -1,13 +1,19 @@
 #!/usr/bin/env bash
 #  script that displays the time for 12 hours and 59 minutes
 
-N=13
+
+H=13
 L=60
-for ((i=0; i < N; i++))
+i=0
+j=1
+while (( i < H ))
 do
-	echo "Hour: $i"
-	for((j=1; j < L; j++))
-	do
-		echo "$j"
-	done
+    echo "Hour: $i"
+    j=1
+    while(( j < L ))
+    do
+	echo "$j"
+	(( j++ ))
+    done
+    (( i++ ))
 done
