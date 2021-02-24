@@ -1,3 +1,3 @@
-#!/bin/env bash
-# display all ids
-ifconfig | grep "inet addr" | cut -d ':' -f 2 | cut -d ' ' -f 1
+#!/usr/bin/env bash
+# Displays all active IPv4 IPs on the machine its executed on
+ifconfig | awk '/inet addr/ {print $2}' | cut -d : -f 2
