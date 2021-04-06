@@ -6,8 +6,5 @@ echo "Holberton School" > /var/www/html/index.nginx-debian.html
 substitute="server_name _;\n\trewrite ^\/redirect_me https:\/\/www.youtube.com\/watch?v=QH2-TGUlwu4 permanent;"
 sed -i "s/server_name _;/$substitute/" /etc/nginx/sites-available/default
 echo "Ceci n'est pas une page" > /var/www/html/404.html
-echo "# configuratin of not found file
-server {
-    error_page 404 /404.html
-}" > /etc/nginx/sites-available/default
+
 service nginx restart
