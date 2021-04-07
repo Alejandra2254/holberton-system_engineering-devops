@@ -3,11 +3,17 @@
 apt-get update
 apt-get install -y nginx
 echo "Holberton School" > /var/www/html/index.nginx-debian.html
-substitute="server_name _;\n\trewrite ^\/redirect_me https:\/\/www.youtube.com\/watch?v=QH2-TGUlwu4 permanent;"
-sed -i "s/server_name _;/$substitute/" /etc/nginx/sites-available/default
 echo "Ceci n'est pas une page" > /var/www/html/404.html
-echo "# configuratin of not found file
+echo "# Own server configuration
 server {
-    error_page 404 /404.html
-}" > /etc/nginx/sites-available/default
+        listen 80 default_server;
+        listen [::]:80 default_server;
+
+        root /var/www/html;
+        index index.html index.htm index.nginx-debian.html;
+
+        server_name _;
+        rewrite ^/redirect_me https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;
+        error_page 404 /404.html;
+} > /etc/nginx/sites-available/default
 service nginx restart
