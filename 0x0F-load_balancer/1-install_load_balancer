@@ -10,7 +10,7 @@ frontend http
 
 backend ale_backend
         balance roundrobin
-        server web1 35.231.58.206:80 check
-        server web2 34.74.180.55:80 check
-" > /etc/haproxy/haproxy.cfg
+        server 2254-web-01 35.231.58.206:80
+        server 2254-web-02 34.74.180.55:80
+" >> /etc/haproxy/haproxy.cfg
 service haproxy restart
