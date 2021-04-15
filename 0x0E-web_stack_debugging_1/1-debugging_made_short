@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 # change configuration
 sed -i 's/80/8080/g' /etc/nginx/sites-enabled/default
-service nginx restart
+service nginx start
 kill -SIGKILL "$(cat /run/nginx.pid)"
