@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Install and configure HAproxy on your lb-01 server.
-sudo sed -i 's/80/8080/g' /etc/nginx/sites-enabled/default
+# change configuration
+sed -i 's/80/8080/g' /etc/nginx/sites-enabled/default
 service nginx restart
-kill -HUP $(ps -ef | grep nginx | grep master | awk '{print $2}')
+kill -SIGKILL "$(cat /run/nginx.pid)"
