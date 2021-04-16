@@ -40,8 +40,6 @@ optiondontlognull
 
     redirect scheme https code 301 if !{ ssl_fc }
 
-    default_backend gcifuentess
-
 frontend http
         bind *:80
         mode http
