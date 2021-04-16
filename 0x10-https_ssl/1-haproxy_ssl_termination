@@ -32,10 +32,6 @@ optiondontlognull
 	errorfile 503 /etc/haproxy/errors/503.http
 	errorfile 504 /etc/haproxy/errors/504.http
 
-frontend load_balancer
-    bind *:80
-    bind *:443 ssl crt /etc/ssl/www.gcifuentess.tech/www.gcifuentess.tech.pem
-
     # mode http
 
     # test URI to see if its a letsencrypt request
@@ -46,10 +42,15 @@ frontend load_balancer
 
     default_backend gcifuentess
 
-backend gcifuentess
-    balance roundrobin
-    server web-01 34.74.168.137:80 check
-    server web-02 104.196.45.136:80 check
+frontend http
+        bind *:80
+        mode http
+        default_backend ale_backend
 
+backend ale_backend
+        balance roundrobin
+        server 2254-web-01 35.227.57.154:80
+        server 2254-web-02 35.227.63.112:80
+	
 backend letsencrypt-backend
     server letsencrypt 127.0.0.1:8888
