@@ -1,8 +1,8 @@
 ## App use guide
 The development of our application right now is with the following functionalities, we are going to take a tour of it:
-1. Main screen, see the image you can sign in with the username and password and sign in
 <img  alt="GIF" width="150"  src="https://github.com/Seed-Tech/what_do_i_see/blob/main/assets_for_readme/Homescreen.jpeg"/>
 </p> 
+1. Main screen, see the image you can sign in with the username and password and sign in
 <img alt="GIF" width="150"  src="https://github.com/Seed-Tech/what_do_i_see/blob/main/assets_for_readme/Modelscreen.jpeg"/>
 </p>
 <img  alt="GIF" width="150"  src="https://github.com/Seed-Tech/what_do_i_see/blob/main/assets_for_readme/Output.jpeg"/>
