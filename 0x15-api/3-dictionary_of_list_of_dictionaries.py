@@ -16,7 +16,7 @@ if __name__ == "__main__":
                            id_employee)
         r_3 = requests.get('https://jsonplaceholder.typicode.com/users/' +
                            id_employee + '/todos/')
-        user_employee = r.json()['username']
+        user_employee = r_2.json()['username']
         tasks_employee = r_3.json()
         list = []
         for task in tasks_employee:
