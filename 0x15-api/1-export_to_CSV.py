@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 """Using this REST API, function accept an integer as paramete
 Return: display on the standard output the employee TODO list progress"""
+import csv
 import requests
 import sys
-import csv
 
 
 if __name__ == "__main__":
