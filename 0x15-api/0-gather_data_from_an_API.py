@@ -20,4 +20,4 @@ if __name__ == "__main__":
     print('Employee {} is done with tasks({}/{}):'
           .format(name_employee, len(completed), len(tasks_employee)))
     for title in completed:
-        print("\t" + title['title'], end="\n")
+        print("\t {}".format(title['title']))
