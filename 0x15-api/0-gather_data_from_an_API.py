@@ -5,7 +5,7 @@ Return: display on the standard output the employee TODO list progress"""
 if __name__ == "__main__":
     import requests
     import sys
-    
+
     id_employee = sys.argv[1]
     general = requests.get('https://jsonplaceholder.typicode.com/users/' +
                            id_employee)
