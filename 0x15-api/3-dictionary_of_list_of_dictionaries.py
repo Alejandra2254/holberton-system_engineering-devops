@@ -21,9 +21,9 @@ if __name__ == "__main__":
         list = []
         for task in tasks_employee:
             task_dict = {}
+            task_dict["username"] = user_employee
             task_dict["task"] = task['title']
             task_dict["completed"] = task['completed']
-            task_dict["username"] = user_employee
             list.append(task_dict)
             dict_final[id_employee] = list
     json_txt = json.dumps(dict_final)
